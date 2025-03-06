@@ -1,0 +1,249 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #f4ce14;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #495e57; /* Dark Green */
+    color: white;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    color: #f4ce14; /* Yellow */
+  }
+  
+  .hero-text h2 {
+    font-size: 24px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .reserve-btn {
+    background-color: #f4ce14;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .testimonials-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background: #edefee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    color: #f4ce14;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #495e57;
+    color: white;
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .about-images {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .about-img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+  }
+  
+  .footer-links,
+  .footer-contact,
+  .footer-social {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #f4ce14;
+  }
+  
+  .footer-social a {
+    display: block;
+    margin: 5px 0;
+  }
+        
+
+  .specials-container {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute items */
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Ensure responsiveness */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .special-card {
+    background: white; /* Add background for clarity */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden;
+    text-align: center;
+    width: 30%; /* Ensures three items per row */
+    min-width: 280px; /* Prevents cards from being too small */
+    padding: 15px;
+  }
+  
+  .special-card img {
+    width: 100%; /* Make images responsive */
+    height: 200px;
+    object-fit: cover; /* Ensures images are cropped properly */
+    border-radius: 8px;
+  }
+  
+  .special-info {
+    padding: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .price {
+    color: #e67e22;
+    font-weight: bold;
+  }
+  
+  .order-btn {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .order-btn:hover {
+    background-color: #d35400;
+  }
+  
+  
