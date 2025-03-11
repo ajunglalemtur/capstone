@@ -43,7 +43,7 @@ const BookingForm = () => {
       <h2>Reserve Your Table</h2>
       <form 
         onSubmit={handleSubmit} 
-        style={{ display: "grid", maxWidth: "300px", gap: "20px" }}
+        className="reservation-form"
         aria-labelledby="form-heading"
       >
         <label htmlFor="res-date">Choose date</label>
@@ -94,7 +94,9 @@ const BookingForm = () => {
           <option>Anniversary</option>
         </select>
 
-        <button type="submit" aria-label="Submit Reservation">Submit Reservation</button>
+        <button type="submit" className="submit-btn" aria-label="Submit Reservation">
+          Submit Reservation
+        </button>
       </form>
     </section>
   );

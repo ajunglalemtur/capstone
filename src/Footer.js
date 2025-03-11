@@ -34,8 +34,14 @@ const Footer = () => {
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
       </div>
+
+      {/* Copyright Section */}
+      <div className="footer-copyright">
+        <p>© {new Date().getFullYear()} Little Lemon. All rights reserved.</p>
+      </div>
     </footer>
   );
 };
 
 export default Footer;
+

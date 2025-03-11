@@ -1,7 +1,6 @@
 import React from "react";
-
 import { Link } from "react-router-dom"; // Import Link for routing
-
+import LoginForm from "./LoginForm"; // Import LoginForm component
 import "./styles.css"; // Import your CSS file for styling
 
 const Nav = () => {
@@ -14,8 +13,9 @@ const Nav = () => {
         <li><Link to="/menu">Menu</Link></li>
         <li><Link to="/booking">Reservations</Link></li>
         <li><Link to="/order">Order Online</Link></li>
-        <li><Link to="/login">Login</Link></li>
-
+        
+        {/* Login should be a button to open a popup instead of a Link */}
+        <li><LoginForm /></li>
       </ul>
     </nav>
   );
